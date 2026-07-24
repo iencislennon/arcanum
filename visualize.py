@@ -131,4 +131,4 @@ if __name__ == "__main__":
     ]
 
     data = run_full_pipeline(waypoints, speed_m_s=0.8, event_interval=0.4, noise_level=0.15)
-    plot_static_summary(data, "/home/claude/acoustic_sim/phase0_result.png")
+    plot_static_summary(data, "phase0_result.png")
